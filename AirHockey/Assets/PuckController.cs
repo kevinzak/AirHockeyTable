@@ -17,7 +17,7 @@ public class PuckController : MonoBehaviour {
 	void OnCollisionEnter(Collision c)
 	{
 		// force is how forcefully we will push the player away from the enemy.
-		float force = 3;
+		float force = 10;
 
 		// If the object we hit is the enemy
 			// Calculate Angle Between the collision point and the player
